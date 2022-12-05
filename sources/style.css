@@ -1,0 +1,11 @@
+.bg-image {
+    /* background-image: linear-gradient(to bottom right, ); */
+    background-color: #343536;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+body {
+    font-family: Cantarell, sans-serif;
+}
