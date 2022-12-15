@@ -7,7 +7,7 @@ html {
     height: 100%;
     background-image: linear-gradient(to top left, #ba724b, #e6ab68, #e6ab68, #cf665d);
     background-size: 800% 100%;
-    animation: gradient 10s ease infinite;
+    animation: gradient 10s ease-in-out infinite;
     animation-direction: alternate;
     background-repeat: no-repeat;
     background-attachment: fixed; 
