@@ -6,7 +6,7 @@ html {
     width: 100%;
     height: 100%;
     /* background-image: linear-gradient(to top left, #0008ff, #0e16f3, #0a0420); */
-    background-image: linear-gradient(to top left, #95534a, #cd6d61, #9f89ef);
+    background-image: linear-gradient(to top left, #0b7ef1, #3694e6, #9f89ef);
     background-size: 800% 100%;
     animation: gradient 10s ease-in-out infinite;
     animation-direction: alternate;
@@ -20,4 +20,9 @@ html {
 
 body {
     font-family: Cantarell, sans-serif;
+}
+
+.bg-cross {
+	background-color: #e5e5f7;
+	opacity: 0.8;
 }
