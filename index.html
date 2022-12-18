@@ -61,6 +61,7 @@
 			</div>
 			<table class="text-dark" id="Splash" style="height: 33em;">
 				<tbody>
+					<th></th>
 					<tr class="w-100">
 						<td class="align-middle text-center" style="width: 50%;">
 							<h2 class="display-3">Milan Murray</h2>
@@ -77,7 +78,7 @@
 					<h3>Prior Coding Projects</h3>
 				</div>
 				<div class="card-body">
-					<div class="row">
+					<div class="row h-100">
 						<div class="col">
 							<div class="card bg-dark text-light shadow">
 								<img src="#" class="card-img-top" alt="SuperWorth">
@@ -85,10 +86,12 @@
 									<h5>E-Commerce Website</h5>
 								</div>
 								<div class="card-body">
-									<p>A supermarket e-commerce website built upon Django</p>
+									<p class="text-center">A supermarket e-commerce website built upon the Django
+										framework</p>
 									<ul>
+										<li>Team Project</li>
 										<li>Role: Team Leader</li>
-										<li>2020 - 2021</li>
+										<li>2020 Sep - Dec</li>
 									</ul>
 								</div>
 							</div>
@@ -100,10 +103,11 @@
 									<h5>TomaNota</h5>
 								</div>
 								<div class="card-body">
-									<p>An online web application for note learning using spaced repitition</p>
+									<p class="text-center">An online web application solution for note learning using
+										spaced repitition</p>
 									<ul>
-										<li>Individual project</li>
-										<li></li>
+										<li>Final Year Project</li>
+										<li>Individual</li>
 									</ul>
 								</div>
 							</div>
@@ -116,14 +120,17 @@
 
 			</div>
 			<div class="card bg-dark shadow" id="Erasmus">
+				<div class="card-header">
+					<h3 class="text-center">Spanish and Erasmus</h3>
+				</div>
 				<div class="card-body">
-					<div class="text-center w-100 h-100">
-						<p>🇪🇸 Spanish and Erasmus 🇪🇸</p>
-					</div>
-					<p>Erasmus in Valencia</p>
-					<p>Spring semester in 2022</p>
-					<p>...</p>
-					<p>...</p>
+					<p class="text-center">Erasmus in Spain, Valencia ~ Spring Semester 2022</p>
+					<p class="text-center">Universidad Politécnica de Valencia</p>
+					<ul>
+						<li>A fantastic opportunity to be immersed in the Spanish language</li>
+						<li>Experience with a broader range of computing related topics</li>
+						<li>To expand my professional and social circles</li>
+					</ul>
 				</div>
 			</div>
 			<div class="p-5 my-3" id="Education-details">
@@ -332,37 +339,62 @@
 				</div>
 			</div>
 			<div class="card bg-dark shadow" id="WorkInterest">
+				<div class="card-header text-center">
+					<h3>Work Areas of Interest</h3>
+				</div>
 				<div class="card-body">
-					<div class="text-center w-100 h-100">
-						<p>Work area that I am interested in</p>
+					<div class="row">
+						<div class="col">
+							<ul class="list-group">
+								<li class="list-group-item list-group-item-dark text-center">Linux and open source</li>
+								<li class="list-group-item list-group-item-dark text-center">Computing Linguistics</li>
+								<li class="list-group-item list-group-item-dark text-center"></li>
+								<li class="list-group-item list-group-item-dark text-center"></li>
+							</ul>
+						</div>
+						<div class="col">
+							<ul class="list-group">
+								<li class="list-group-item list-group-item-dark text-center"></li>
+								<li class="list-group-item list-group-item-dark text-center"></li>
+								<li class="list-group-item list-group-item-dark text-center"></li>
+								<li class="list-group-item list-group-item-dark text-center"></li>
+							</ul>
+						</div>
 					</div>
-					<p>Linux and open source projects</p>
-					<p>Language support of computer interfaces</p>
 				</div>
 			</div>
-			<div class="text-dark m-3">
-				<p>...</p>
-				<p>...</p>
-				<p>...</p>
+			<div class="p-5 my-3">
+
 			</div>
 			<div class="card bg-dark shadow" id="HobbiesAndInterests">
-				<div class="card-body">
-					<div class="text-center w-100 h-100">
-						<p>Hobbies and interests</p>
-					</div>
+				<div class="card-header">
+					<h3 class="text-center">Hobbies and Interests</h3>
+				</div>
+				<div class="card-body text-center">
 					<p>Art</p>
 					<p>Linux</p>
 					<p>Travelling, culture and languages</p>
 				</div>
 			</div>
-			<div class="m-3">
-				<h3 class="text-center text-dark">Contact</h3>
-				<div class="form-group">
-					<input type="text" placeholder="Your message here" autocomplete="off" />
-					<button class="btn btn-dark" submit>Submit</button>
-				</div>
+			<div class="p-5 my-3">
+				<form action="mailto:m-murray-cv@outlook.ie" method="post" enctype="text/plain" name="emailForm">
+					<h3 class="text-center text-light">Get in contact</h3>
+					<div class="mb-3">
+						<label for="emailName" class="form-label">Name</label>
+						<input type="text" class="form-control" name="name" id="emailName">
+					</div>
+					<div class="mb-3">
+						<label for="emailAddress" class="form-label">Email address</label>
+						<input type="email" class="form-control" name="email" id="emailAddress">
+					</div>
+					<div class="mb-3">
+						<label for="emailMessage" class="form-label">Message</label>
+						<input type="text" class="form-control" name="message" id="emailMessage">
+					</div>
+					<button type="submit" value="Send" class="btn mx-auto btn-light">Submit</button>
+				</form>
 			</div>
-			<div class="bg-dark rounded-top px-2 shadow sticky-bottom">
+			<div class="bg-dark rounded-top px-2 shadow-lg sticky-bottom">
 				<nav class="navbar navbar-dark navbar-expand-lg bg-dark" id="navScrollSpy">
 					<div class="container-fluid">
 						<a class="navbar-brand" href="#Splash">Milan Murray</a>
@@ -372,23 +404,20 @@
 							<span class="navbar-toggler-icon"></span>
 						</button>
 						<div class="collapse navbar-collapse text-light" id="navbarSupportedContent">
-							<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-								<li class="nav-item">
-									<a class="nav-link" href="#Prj">Projects</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#Erasmus">Erasmus</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#Education-details">Education</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#WorkInterest">Work Areas Of Interest</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#HobbiesAndInterests">Hobbies</a>
-								</li>
-							</ul>
+							<div class="navbar-nav me-auto mb-2 mb-lg-0">
+								<a class="nav-link" href="#Prj">Projects</a>
+								<a class="nav-link" href="#Erasmus">Erasmus</a>
+								<a class="nav-link" href="#Education-details">Education</a>
+								<a class="nav-link" href="#WorkInterest">Work Areas Of Interest</a>
+								<a class="nav-link" href="#HobbiesAndInterests">Hobbies</a>
+							</div>
+							<div class="navbar-nav ml-auto">
+								<a href="#Splash">
+									<button class="btn btn-dark shadow-lg" style="display: none;" id="ReturnToTopBtn"><i
+											class="fa fa-arrow-up" aria-hidden="true"></i>
+									</button>
+								</a>
+							</div>
 						</div>
 					</div>
 				</nav>
@@ -396,11 +425,7 @@
 		</div>
 	</div>
 	<div class="fixed-bottom m-3 d-flex justify-content-end">
-		<a href="#Splash">
-			<button class="btn btn-dark shadow" style="display: none;" id="ReturnToTopBtn"><i class="fa fa-arrow-up"
-					aria-hidden="true"></i>
-			</button>
-		</a>
+
 	</div>
 </body>
 
