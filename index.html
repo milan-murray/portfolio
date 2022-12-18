@@ -38,196 +38,369 @@
             Form - Labels on top of inputs
             Maps
         -->
-		<div class="bg-dark rounded-bottom mb-5 px-3 shadow" id="top-nav">
-			<nav class="navbar navbar-dark navbar-expand-lg bg-dark">
-				<div class="container-fluid">
-					<a class="navbar-brand" href="#Splash">Milan Murray</a>
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-						data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-						aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse text-light" id="navbarSupportedContent">
-						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-							<li class="nav-item">
-								<a class="nav-link" href="#Prj">Projects</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Erasmus</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Education</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">a</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</div>
-		<div class="text-dark m-3 my-5" id="Splash">
-			<div class="row">
-				<div class="col text-center">
-					<h2>Milan Murray</h2>
-					<h4>Software Developer</h4>
-				</div>
-				<div class="col">
-					<img src="#" alt="photo" class="">
+		<div data-bs-spy="scroll" data-bs-target="#navScrollSpy" data-bs-root-margin="0px 0px -40%"
+			data-bs-smooth-scroll="true" tabindex="0">
+			<div class="bg-dark rounded-bottom mb-5 px-2 shadow" id="Splash">
+				<div class="navbar navbar-dark bg-dark">
+					<a href="https://milan-murray.github.io">
+						<button class="btn btn-outline-light" type="button">
+							<i class="fa fa-id-card" aria-hidden="true"></i> CV Page
+						</button>
+					</a>
+					<a href="#">
+						<button class="btn btn-outline-light" type="button">
+							<i class="fa fa-github" aria-hidden="true"></i> Ver en Español
+						</button>
+					</a>
+					<a href="https://github.com/milan-murray/portfolio">
+						<button class="btn btn-outline-light" type="button">
+							<i class="fa fa-github" aria-hidden="true"></i> GitHub
+						</button>
+					</a>
 				</div>
 			</div>
-		</div>
-		<div class="card bg-dark shadow my-5" id="Prj">
-			<div class="card-header text-center">
-				<h3>Coding Projects</h3>
-			</div>
-			<div class="card-body">
-				<div class="accordion shadow" id="accordion-projects">
-					<div class="accordion-item">
-						<h2 class="accordion-header" id="headingOne">
-							<button class="accordion-button" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-								E-Commerce Website
-							</button>
-						</h2>
-						<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-							data-bs-parent="#accordion-projects">
-							<div class="accordion-body">
-								<p>A supermarket e-commerce website built using Django</p>
-								<ul>
-									<li>Role: Team Leader</li>
-									<li>2020 - 2021</li>
-								</ul>
+			<table class="text-dark" id="Splash" style="height: 33em;">
+				<tbody>
+					<tr class="w-100">
+						<td class="align-middle text-center" style="width: 50%;">
+							<h2 class="display-3">Milan Murray</h2>
+							<h4 class="display-5">Software Developer</h4>
+						</td>
+						<td class="p-3">
+							<img src="./media/upv.jpg" alt="photo" style="width: 100%;" class="img-fluid rounded">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="card bg-dark shadow mt-5" id="Prj">
+				<div class="card-header text-center">
+					<h3>Prior Coding Projects</h3>
+				</div>
+				<div class="card-body">
+					<div class="row">
+						<div class="col">
+							<div class="card bg-dark text-light shadow">
+								<img src="#" class="card-img-top" alt="SuperWorth">
+								<div class="card-header text-center">
+									<h5>E-Commerce Website</h5>
+								</div>
+								<div class="card-body">
+									<p>A supermarket e-commerce website built upon Django</p>
+									<ul>
+										<li>Role: Team Leader</li>
+										<li>2020 - 2021</li>
+									</ul>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="accordion-item">
-						<h2 class="accordion-header" id="headingTwo">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-								TomaNota
-							</button>
-						</h2>
-						<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-							data-bs-parent="#accordion-projects">
-							<div class="accordion-body">
-								<p>An online web application for note learning using spaced repitition</p>
-								<ul>
-									<li>Individual project</li>
-									<li></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="accordion-item">
-						<h2 class="accordion-header" id="headingThree">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-								Accordion Item #3
-							</button>
-						</h2>
-						<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-							data-bs-parent="#accordion-projects">
-							<div class="accordion-body">
+						<div class="col">
+							<div class="card bg-dark text-light shadow">
+								<img src="./media/TomaNota.png" class="card-img-top" alt="TomaNota">
+								<div class="card-header text-center">
+									<h5>TomaNota</h5>
+								</div>
+								<div class="card-body">
+									<p>An online web application for note learning using spaced repitition</p>
+									<ul>
+										<li>Individual project</li>
+										<li></li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="text-dark m-3">
-			<p>...</p>
-			<p>...</p>
-			<p>...</p>
-		</div>
-		<div class="card bg-dark shadow" id="#Nav">
-			<div class="card-body">
-				<div class="text-center w-100 h-100">
-					<p>🇪🇸 Spanish and Erasmus 🇪🇸</p>
+			<div class="p-5">
+				<img class="img-fluid rounded my-3 mx-auto d-block" src="./media/logo_upv.jpg" alt="UPV">
+
+			</div>
+			<div class="card bg-dark shadow" id="Erasmus">
+				<div class="card-body">
+					<div class="text-center w-100 h-100">
+						<p>🇪🇸 Spanish and Erasmus 🇪🇸</p>
+					</div>
+					<p>Erasmus in Valencia</p>
+					<p>Spring semester in 2022</p>
+					<p>...</p>
+					<p>...</p>
 				</div>
-				<p>Erasmus in Valencia</p>
-				<p>Spring semester in 2022</p>
-				<p>...</p>
-				<p>...</p>
 			</div>
-		</div>
-		<div class="text-dark m-3">
-			<p>...</p>
-			<p>...</p>
-			<p>...</p>
-		</div>
-		<div class="card bg-dark shadow" id="#Nav">
-			<div class="card-body">
-				<div class="text-center w-100 h-100">
-					<p>Education details</p>
+			<div class="p-5 my-3" id="Education-details">
+				<div class="card shadow">
+					<div class="card-header text-center">
+						<h3 class="text-dark">Education details</h3>
+					</div>
+					<div class="card-body">
+						<div class="accordion shadow" id="accordion-results">
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingOne">
+									<button class="accordion-button" type="button" data-bs-toggle="collapse"
+										data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										Year 1 Results
+									</button>
+								</h2>
+								<div id="collapseOne" class="accordion-collapse collapse show"
+									aria-labelledby="headingOne" data-bs-parent="#accordion-results">
+									<div class="accordion-body">
+										<table class="table">
+											<thead>
+												<tr>
+													<th scope="col">Module</th>
+													<th scope="col">Grade</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Software Development 1</td>
+													<td>A</td>
+												</tr>
+												<tr>
+													<td>Software Development 2</td>
+													<td>A</td>
+												</tr>
+												<tr>
+													<td>Systems Analysis</td>
+													<td>B</td>
+												</tr>
+												<tr>
+													<td>Spanish 1</td>
+													<td>A</td>
+												</tr>
+												<tr>
+													<td>Spanish 2</td>
+													<td>A</td>
+												</tr>
+												<tr>
+													<td>Database Fundamentals</td>
+													<td>A</td>
+												</tr>
+												<tr>
+													<td>Statistics</td>
+													<td>A</td>
+												</tr>
+												<tr>
+													<td>Operating Systems Fundamentals</td>
+													<td>B+</td>
+												</tr>
+												<tr>
+													<td>Computer Architecture</td>
+													<td>A</td>
+												</tr>
+												<tr>
+													<td>Visual Design and User Experience</td>
+													<td>A</td>
+												</tr>
+												<tr>
+													<td>Discrete Mathematics</td>
+													<td>A</td>
+												</tr>
+												<tr>
+													<td>Critical Skills Development</td>
+													<td>B+</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingTwo">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										Year 2 Results
+									</button>
+								</h2>
+								<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+									data-bs-parent="#accordion-results">
+									<div class="accordion-body">
+										<table class="table">
+											<thead>
+												<tr>
+													<th scope="col">Module</th>
+													<th scope="col">Grade</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Social Media Communications</td>
+													<td>B+</td>
+												</tr>
+												<tr>
+													<td>Project</td>
+													<td>B+</td>
+												</tr>
+												<tr>
+													<td>Software Development 3</td>
+													<td>B+</td>
+												</tr>
+												<tr>
+													<td>Software Development 4</td>
+													<td>A</td>
+												</tr>
+												<tr>
+													<td>Spanish 3</td>
+													<td>A</td>
+												</tr>
+												<tr>
+													<td>Spanish 4</td>
+													<td>B+</td>
+												</tr>
+												<tr>
+													<td>Management Science</td>
+													<td>B+</td>
+												</tr>
+												<tr>
+													<td>Software Quality Assurance Testing</td>
+													<td>B+</td>
+												</tr>
+												<tr>
+													<td>Database Administration & Analysis</td>
+													<td>B+</td>
+												</tr>
+												<tr>
+													<td>Advanced Database Technologies</td>
+													<td>B+</td>
+												</tr>
+												<tr>
+													<td>Discrete Mathematics 2</td>
+													<td>A</td>
+												</tr>
+												<tr>
+													<td>Client Side Web Development</td>
+													<td>A</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingThree">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#collapseThree" aria-expanded="false"
+										aria-controls="collapseThree">
+										Year 3 Results
+									</button>
+								</h2>
+								<div id="collapseThree" class="accordion-collapse collapse"
+									aria-labelledby="headingThree" data-bs-parent="#accordion-results">
+									<div class="accordion-body">
+										<table class="table">
+											<thead>
+												<tr>
+													<th scope="col">Module</th>
+													<th scope="col">Grade</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Spanish 5</td>
+													<td>B+</td>
+												</tr>
+												<tr>
+													<td>Operating Systems</td>
+													<td>B+</td>
+												</tr>
+												<tr>
+													<td>Server-side Web Development</td>
+													<td>C+</td>
+												</tr>
+												<tr>
+													<td>Cloud Services and Distributed Computing</td>
+													<td>C+</td>
+												</tr>
+												<tr>
+													<td>Big Data Technologies</td>
+													<td>B-</td>
+												</tr>
+												<tr>
+													<td>Data Structures and Algorithms</td>
+													<td>B+</td>
+												</tr>
+												<tr>
+													<td>Semester Abroad</td>
+													<td>PS</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-				<p>...</p>
-				<p>...</p>
-				<p>...</p>
-				<p>...</p>
 			</div>
-		</div>
-		<div class="text-dark m-3">
-			<p>...</p>
-			<p>...</p>
-			<p>...</p>
-		</div>
-		<div class="card bg-dark shadow" id="#Nav">
-			<div class="card-body">
-				<div class="text-center w-100 h-100">
-					<p>Work area that I am interested in</p>
+			<div class="card bg-dark shadow" id="WorkInterest">
+				<div class="card-body">
+					<div class="text-center w-100 h-100">
+						<p>Work area that I am interested in</p>
+					</div>
+					<p>Linux and open source projects</p>
+					<p>Language support of computer interfaces</p>
 				</div>
-				<p>Linux and open source projects</p>
-				<p>Language support of computer interfaces</p>
 			</div>
-		</div>
-		<div class="text-dark m-3">
-			<p>...</p>
-			<p>...</p>
-			<p>...</p>
-		</div>
-		<div class="card bg-dark shadow" id="#Nav">
-			<div class="card-body">
-				<div class="text-center w-100 h-100">
-					<p>Hobbies and interests</p>
+			<div class="text-dark m-3">
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+			</div>
+			<div class="card bg-dark shadow" id="HobbiesAndInterests">
+				<div class="card-body">
+					<div class="text-center w-100 h-100">
+						<p>Hobbies and interests</p>
+					</div>
+					<p>Art</p>
+					<p>Linux</p>
+					<p>Travelling, culture and languages</p>
 				</div>
-				<p>Art</p>
-				<p>Linux</p>
-				<p>Travelling, culture and languages</p>
 			</div>
-		</div>
-		<div class="m-3">
-			<h3 class="text-center text-dark">Contact</h3>
-			<div class="form-group">
-				<input type="text" placeholder="Your message here" autocomplete="off" />
-				<button class="btn btn-dark" submit>Submit</button>
+			<div class="m-3">
+				<h3 class="text-center text-dark">Contact</h3>
+				<div class="form-group">
+					<input type="text" placeholder="Your message here" autocomplete="off" />
+					<button class="btn btn-dark" submit>Submit</button>
+				</div>
 			</div>
-		</div>
-		<div class="bg-dark rounded-top px-2 shadow" id="#About">
-			<div class="navbar navbar-dark bg-dark">
-				<a href="https://milan-murray.github.io">
-					<button class="btn btn-outline-light" type="button">
-						<i class="fa fa-id-card" aria-hidden="true"></i> CV Page
-					</button>
-				</a>
-				<a href="#">
-					<button class="btn btn-outline-light" type="button">
-						<i class="fa fa-github" aria-hidden="true"></i> Ver en Español
-					</button>
-				</a>
-				<a href="https://github.com/milan-murray/portfolio">
-					<button class="btn btn-outline-light" type="button">
-						<i class="fa fa-github" aria-hidden="true"></i> GitHub
-					</button>
-				</a>
+			<div class="bg-dark rounded-top px-2 shadow sticky-bottom">
+				<nav class="navbar navbar-dark navbar-expand-lg bg-dark" id="navScrollSpy">
+					<div class="container-fluid">
+						<a class="navbar-brand" href="#Splash">Milan Murray</a>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+							data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+							aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse text-light" id="navbarSupportedContent">
+							<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+								<li class="nav-item">
+									<a class="nav-link" href="#Prj">Projects</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#Erasmus">Erasmus</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#Education-details">Education</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#WorkInterest">Work Areas Of Interest</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#HobbiesAndInterests">Hobbies</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
 			</div>
 		</div>
 	</div>
-	<div class="fixed-bottom m-3 d-flex justify-content-end" id="ReturnToTopBtn">
-		<a href="#top-nav">
-			<button class="btn btn-dark shadow"><i class="fa fa-arrow-up" aria-hidden="true"></i>
-		</button>
-	</a>
+	<div class="fixed-bottom m-3 d-flex justify-content-end">
+		<a href="#Splash">
+			<button class="btn btn-dark shadow" style="display: none;" id="ReturnToTopBtn"><i class="fa fa-arrow-up"
+					aria-hidden="true"></i>
+			</button>
+		</a>
 	</div>
 </body>
 
