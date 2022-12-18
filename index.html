@@ -27,38 +27,53 @@
 
 <body class="bg-image text-light">
 	<div class="container">
-		<!-- 
-            Splash 
-            About
-            Education
-            Projects
-            Work exp
-            Hobbies
-            Contact
-            Form - Labels on top of inputs
-            Maps
-        -->
 		<div data-bs-spy="scroll" data-bs-target="#navScrollSpy" data-bs-root-margin="0px 0px -40%"
 			data-bs-smooth-scroll="true" tabindex="0">
 			<div class="bg-dark rounded-bottom mb-5 px-2 shadow" id="Splash">
 				<div class="navbar navbar-dark bg-dark">
-					<a href="https://milan-murray.github.io">
-						<button class="btn btn-outline-light" type="button">
-							<i class="fa fa-id-card" aria-hidden="true"></i> CV Page
-						</button>
-					</a>
-					<a href="#">
-						<button class="btn btn-outline-light" type="button">
-							<i class="fa fa-github" aria-hidden="true"></i> Ver en Español
-						</button>
-					</a>
 					<a href="https://github.com/milan-murray/portfolio">
 						<button class="btn btn-outline-light" type="button">
 							<i class="fa fa-github" aria-hidden="true"></i> GitHub
 						</button>
 					</a>
+					<!-- <a href="#">
+						<button class="btn btn-outline-light" type="button">
+							<i class="fa fa-github" aria-hidden="true"></i> Ver en Español
+						</button>
+					</a> -->
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+						data-bs-target="#contactModal">
+						<i class="fa fa-envelope" aria-hidden="true"></i> Contact Details
+					</button>
+
+					<a href="https://milan-murray.github.io">
+						<button class="btn btn-outline-light" type="button">
+							<i class="fa fa-id-card" aria-hidden="true"></i> CV Page
+						</button>
+					</a>
 				</div>
 			</div>
+
+			<!-- Modal -->
+			<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel"
+				aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h1 class="modal-title fs-5 text-dark" id="contactModalLabel">Contact Details</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body text-dark">
+							E-mail: m-murray-cv@outlook.ie
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<table class="text-dark" id="Splash" style="height: 33em;">
 				<tbody>
 					<th></th>
@@ -81,7 +96,7 @@
 					<div class="row h-100">
 						<div class="col">
 							<div class="card bg-dark text-light shadow">
-								<img src="#" class="card-img-top" alt="SuperWorth">
+								<img src="./media/SuperWorth.png" class="card-img-top" alt="SuperWorth">
 								<div class="card-header text-center">
 									<h5>E-Commerce Website</h5>
 								</div>
@@ -104,9 +119,9 @@
 								</div>
 								<div class="card-body">
 									<p class="text-center">An online web application solution for note learning using
-										spaced repitition</p>
+										spaced repitition made in the Blazor framework</p>
 									<ul>
-										<li>Final Year Project</li>
+										<li>Final Year Project ~ 2022/2023</li>
 										<li>Individual</li>
 									</ul>
 								</div>
@@ -121,7 +136,7 @@
 			</div>
 			<div class="card bg-dark shadow" id="Erasmus">
 				<div class="card-header">
-					<h3 class="text-center">Spanish and Erasmus</h3>
+					<h3 class="text-center">Erasmus</h3>
 				</div>
 				<div class="card-body">
 					<p class="text-center">Erasmus in Spain, Valencia ~ Spring Semester 2022</p>
@@ -129,7 +144,7 @@
 					<ul>
 						<li>A fantastic opportunity to be immersed in the Spanish language</li>
 						<li>Experience with a broader range of computing related topics</li>
-						<li>To expand my professional and social circles</li>
+						<li>Hugely expanded my Spanish speaking ability as well as expanded my professional and social circles</li>
 					</ul>
 				</div>
 			</div>
@@ -345,38 +360,78 @@
 				<div class="card-body">
 					<div class="row">
 						<div class="col">
-							<ul class="list-group">
-								<li class="list-group-item list-group-item-dark text-center">Linux and open source</li>
-								<li class="list-group-item list-group-item-dark text-center">Computing Linguistics</li>
-								<li class="list-group-item list-group-item-dark text-center"></li>
-								<li class="list-group-item list-group-item-dark text-center"></li>
+							<ul class="list-group shadow">
+								<li class="list-group-item text-center">Linux and Open Source</li>
+								<li class="list-group-item text-center">Computing Linguistics</li>
+								<li class="list-group-item text-center">Development of Virtual
+									Experiences</li>
 							</ul>
 						</div>
 						<div class="col">
-							<ul class="list-group">
-								<li class="list-group-item list-group-item-dark text-center"></li>
-								<li class="list-group-item list-group-item-dark text-center"></li>
-								<li class="list-group-item list-group-item-dark text-center"></li>
-								<li class="list-group-item list-group-item-dark text-center"></li>
+							<ul class="list-group shadow">
+								<li class="list-group-item text-center">Data Analysis</li>
+								<li class="list-group-item text-center">Front-end Development</li>
+								<li class="list-group-item text-center">Quality Assurance Testing
+								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="p-5 my-3">
-
-			</div>
-			<div class="card bg-dark shadow" id="HobbiesAndInterests">
-				<div class="card-header">
-					<h3 class="text-center">Hobbies and Interests</h3>
+			<div class="p-5 my-3" id="HobbiesAndInterests">
+				<div class="card shadow">
+					<div class="card-header text-center">
+						<h3 class="text-dark">Hobbies and Interests</h3>
+					</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col">
+								<div class="card text-dark shadow">
+									<div class="card-header text-center">
+										<h4>Creative</h4>
+									</div>
+									<div class="card-body">
+										<ul class="list-group">
+											<li class="list-group-item text-center">Painting</li>
+											<li class="list-group-item text-center">Music Creation</li>
+											<li class="list-group-item text-center">Languages</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card text-dark shadow">
+									<div class="card-header text-center">
+										<h4>Computing</h4>
+									</div>
+									<div class="card-body">
+										<ul class="list-group">
+											<li class="list-group-item text-center">Computer Building</li>
+											<li class="list-group-item text-center">Digital Experiences</li>
+											<li class="list-group-item text-center">Open Source Community</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card text-dark shadow">
+									<div class="card-header text-center">
+										<h4>Cultures</h4>
+									</div>
+									<div class="card-body">
+										<ul class="list-group">
+											<li class="list-group-item text-center">Spanish</li>
+											<li class="list-group-item text-center">German</li>
+											<li class="list-group-item text-center">European Life Styles</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="card-body text-center">
-					<p>Art</p>
-					<p>Linux</p>
-					<p>Travelling, culture and languages</p>
-				</div>
 			</div>
-			<div class="p-5 my-3">
+			<div class="p-5 mb-3" id="Contact">
 				<form action="mailto:m-murray-cv@outlook.ie" method="post" enctype="text/plain" name="emailForm">
 					<h3 class="text-center text-light">Get in contact</h3>
 					<div class="mb-3">
@@ -389,7 +444,7 @@
 					</div>
 					<div class="mb-3">
 						<label for="emailMessage" class="form-label">Message</label>
-						<input type="text" class="form-control" name="message" id="emailMessage">
+						<textarea type="text" class="form-control" name="message" id="emailMessage"></textarea>
 					</div>
 					<button type="submit" value="Send" class="btn mx-auto btn-light">Submit</button>
 				</form>
@@ -410,10 +465,11 @@
 								<a class="nav-link" href="#Education-details">Education</a>
 								<a class="nav-link" href="#WorkInterest">Work Areas Of Interest</a>
 								<a class="nav-link" href="#HobbiesAndInterests">Hobbies</a>
+								<a class="nav-link" href="#Contact">Contact</a>
 							</div>
 							<div class="navbar-nav ml-auto">
 								<a href="#Splash">
-									<button class="btn btn-dark shadow-lg" style="display: none;" id="ReturnToTopBtn"><i
+									<button class="btn btn-dark" style="display: none;" id="ReturnToTopBtn"><i
 											class="fa fa-arrow-up" aria-hidden="true"></i>
 									</button>
 								</a>
